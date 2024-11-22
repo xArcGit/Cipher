@@ -6,28 +6,6 @@ A custom Visual Studio Code theme **inspired by Hack The Box**, designed to prov
   <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/hero.png">
 </p>
 
-## Theme Preview
-
-This theme puts the focus squarely on your code. No distractions, no overly saturated colors that might look good in a preview but can strain your eyes after a long coding session. We have carefully adjusted the syntax and semantic highlighting across all supported languages to ensure your coding environment stays clean and easy to navigate.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/theme-perspective-2.png">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/htb-theme1.png">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/htb-theme2.png">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/htb-theme3.png">
-</p>
-
----
-
 ## Getting Started
 
 To install the Hack The Box theme, follow the steps below:
@@ -78,19 +56,7 @@ For the best experience using the Hack The Box theme, apply these settings in yo
 
 ---
 
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2020 HackTheBox Theme
-
-Permission is granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit others to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice must be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
+## [License](https://raw.githubusercontent.com/xarcgit/hackthebox/master/LICENSE)
 
 ## Feedback and Contributions
 
