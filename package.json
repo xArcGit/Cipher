@@ -1,0 +1,47 @@
+{
+  "name": "hackthebox",
+  "displayName": "hackthebox",
+  "description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
+  "version": "0.3.0",
+  "publisher": "xArcGit",
+  "license": "XAG",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "hackthebox",
+    "hack the box",
+    "hack",
+    "hacking",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#111927",
+    "theme": "dark"
+  },
+  "maintainers": [
+    "xarcgit <umare@tuta.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silofy/hackthebox"
+  },
+  "bugs": {
+    "url": "https://github.com/silofy/hackthebox/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "HackTheBox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HackTheBox.json"
+      }
+    ]
+  }
+}
