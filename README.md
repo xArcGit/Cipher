@@ -11,7 +11,7 @@ A custom Visual Studio Code theme **inspired by Hack The Box**, designed to prov
 This theme puts the focus squarely on your code. No distractions, no overly saturated colors that might look good in a preview but can strain your eyes after a long coding session. We have carefully adjusted the syntax and semantic highlighting across all supported languages to ensure your coding environment stays clean and easy to navigate.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/theme-perspective-1.png">
+  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/theme-perspective-2.png">
 </p>
 
 <p align="center">
