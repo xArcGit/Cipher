@@ -10,17 +10,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Add a timeout to avoid infinite hangs
+    timeout-minutes: 30  # Set a timeout limit for your job
 
     steps:
       # Step 1: Check out the code
       - uses: actions/checkout@v4
 
-      # Step 2: Set up Node.js (using Node 20)
+      # Step 2: Set up Node.js (explicitly using Node 20)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '20'  # Explicitly set Node.js version to 20
 
       # Step 3: Install dependencies (including vsce)
       - name: Install dependencies
@@ -34,7 +34,7 @@ jobs:
 
       # Step 5: Upload the package to release artifacts using v4
       - name: Upload VSIX to release
-        uses: actions/upload-artifact@v4  # Updated to v4
+        uses: actions/upload-artifact@v4  # Using version 4
         with:
           name: vscode-theme-package
           path: "*.vsix"
