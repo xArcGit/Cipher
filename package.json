@@ -30,17 +30,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/silofy/hackthebox"
+    "url": "https://github.com/xarcgit/hackthebox"
   },
   "bugs": {
-    "url": "https://github.com/silofy/hackthebox/issues"
+    "url": "https://github.com/xarcgit/hackthebox/issues"
   },
   "contributes": {
     "themes": [
       {
-        "label": "HackTheBox",
+        "label": "Hack The Box (Dark Mode)",
         "uiTheme": "vs-dark",
         "path": "./themes/HackTheBox.json"
+      },
+      {
+        "label": "Hack The Box (Soft Dark Mode)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HackTheBoxSoft.json"
       }
     ]
   }
