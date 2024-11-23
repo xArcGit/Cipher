@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # Add a timeout to avoid infinite hangs
 
     steps:
       # Step 1: Check out the code
@@ -31,9 +32,9 @@ jobs:
       - name: Build VSIX package
         run: vsce package
 
-      # Step 5: Upload the package to release artifacts
+      # Step 5: Upload the package to release artifacts using v4
       - name: Upload VSIX to release
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated to v4
         with:
           name: vscode-theme-package
           path: "*.vsix"
