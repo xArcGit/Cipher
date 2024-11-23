@@ -1,9 +1,9 @@
 {
-  "name": "hackthebox",
-  "displayName": "hackthebox",
+  "name": "cipher",
+  "displayName": "Cipher",
   "description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
-  "version": "0.3.0",
-  "publisher": "xArcGit",
+  "version": "0.3.1",
+  "publisher": "Death",
   "license": "XAG",
   "engines": {
     "vscode": "^1.95.0"
@@ -12,8 +12,8 @@
     "Themes"
   ],
   "keywords": [
-    "hackthebox",
-    "hack the box",
+    "dark",
+    "Cipher Dark",
     "hack",
     "hacking",
     "dark",
@@ -30,22 +30,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/xarcgit/hackthebox"
+    "url": "https://github.com/xarcgit/"
   },
   "bugs": {
-    "url": "https://github.com/xarcgit/hackthebox/issues"
+    "url": "https://github.com/xarcgit//issues"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Hack The Box (Dark Mode)",
+        "label": "Cipher Dark (Dark Mode)",
         "uiTheme": "vs-dark",
-        "path": "./themes/HackTheBox.json"
+        "path": "./themes/Cipher.json"
       },
       {
-        "label": "Hack The Box (Soft Dark Mode)",
+        "label": "Cipher Dark (Soft Dark Mode)",
         "uiTheme": "vs-dark",
-        "path": "./themes/HackTheBoxSoft.json"
+        "path": "./themes/CipherSoft.json"
       }
     ]
   }

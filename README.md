@@ -1,30 +1,30 @@
-# Hack The Box Theme for VS Code
+# Cipher Theme for VS Code
 
 A custom Visual Studio Code theme **inspired by Hack The Box**, designed to provide a comfortable and focused coding experience for hackers and developers. Developed with 💚 by xArcGit.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xarcgit/hackthebox/master/static/hero.png">
+  <img src="https://raw.githubusercontent.com/xarcgit/Cipher/master/static/hero.png">
 </p>
 
 ## Getting Started
 
-To install the Hack The Box theme, follow the steps below:
+To install the Cipher theme, follow the steps below:
 
 ### Installation via Visual Studio Code Marketplace
 
 1. Open the **Extensions** sidebar in VS Code (`View → Extensions`).
-2. Search for `HackTheBox`.
+2. Search for `Cipher`.
 3. Click **Install** to add the theme to your editor.
 4. Click **Reload** to activate the theme.
-5. Set the theme by navigating to **File > Preferences > Settings > Workbench > Color Theme** and select **HackTheBox**.
+5. Set the theme by navigating to **File > Preferences > Settings > Workbench > Color Theme** and select **Cipher**.
 
 ### Installation via Command Line
 
 You can also install the theme via Git by running the following commands:
 
 ```bash
-$ git clone https://github.com/xarcgit/hackthebox.git ~/.vscode/extensions/HackTheBox
-$ cd ~/.vscode/extensions/HackTheBox
+$ git clone https://github.com/xarcgit/Cipher.git ~/.vscode/extensions/Cipher
+$ cd ~/.vscode/extensions/Cipher
 $ npm install && npm run build
 ```
 
@@ -32,7 +32,7 @@ $ npm install && npm run build
 
 ## Recommended Visual Studio Code Settings
 
-For the best experience using the Hack The Box theme, apply these settings in your **settings.json**:
+For the best experience using the Cipher theme, apply these settings in your **settings.json**:
 
 1. Open **settings.json** by pressing **ctrl+shift+p** or going to **File > Preferences > Settings**.
 2. Add or update the following settings:
