@@ -2,7 +2,7 @@
   "name": "cipher",
   "displayName": "Cipher",
   "description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "publisher": "Death",
   "license": "XAG",
   "engines": {
