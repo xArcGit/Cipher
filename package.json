@@ -2,7 +2,7 @@
   "name": "cipher",
   "displayName": "Cipher",
   "description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "publisher": "Death",
   "license": "XAG",
   "engines": {
@@ -13,7 +13,7 @@
   ],
   "keywords": [
     "dark",
-    "Cipher Dark",
+    "Cipher",
     "hack",
     "hacking",
     "dark",
@@ -38,14 +38,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cipher Dark (Dark Mode)",
+        "label": "Cipher Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Cipher.json"
       },
       {
-        "label": "Cipher Dark (Soft Dark Mode)",
+        "label": "Cipher Soft Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/CipherSoft.json"
+      },
+      {
+        "label": "Cipher Font Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CipherFont.json"
       }
     ]
   }
