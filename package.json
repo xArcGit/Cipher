@@ -1,57 +1,55 @@
 {
-  "name": "cipher",
-  "displayName": "Cipher",
-  "description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
-  "version": "0.3.4",
-  "publisher": "Death",
-  "license": "XAG",
-  "engines": {
-    "vscode": "^1.95.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark",
-    "Cipher",
-    "hack",
-    "hacking",
-    "dark",
-    "theme",
-    "color-theme"
-  ],
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#111927",
-    "theme": "dark"
-  },
-  "maintainers": [
-    "xarcgit <umare@tuta.io>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xarcgit/Cipher"
-  },
-  "bugs": {
-    "url": "https://github.com/xarcgit/Cipher/issues"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Cipher Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Cipher.json"
-      },
-      {
-        "label": "Cipher Soft Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/CipherSoft.json"
-      },
-      {
-        "label": "Cipher Font Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/CipherFont.json"
-      }
-    ]
-  }
+	"name": "cipher",
+	"displayName": "Cipher",
+	"description": "A Visual Studio Code theme designed for hackers, inspired by the 'HackTheCode' aesthetic. With bold, high-contrast colors and sleek syntax highlighting, it's perfect for those who thrive in dark, immersive coding environments",
+	"version": "0.3.5",
+	"publisher": "Death",
+	"license": "XAG-1 Private Software License",
+	"engines": {
+		"vscode": "^1.95.0"
+	},
+	"categories": ["Themes"],
+	"keywords": [
+		"hackthebox",
+		"box",
+		"dark",
+		"Cipher",
+		"hack",
+		"hacking",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#111927",
+		"theme": "dark"
+	},
+	"maintainers": ["vhyran <umare@tuta.io>"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vhyran/Cipher"
+	},
+	"bugs": {
+		"url": "https://github.com/vhyran/Cipher/issues"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cipher Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Cipher.json"
+			},
+			{
+				"label": "Cipher Soft Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CipherSoft.json"
+			},
+			{
+				"label": "Cipher Font Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CipherFont.json"
+			}
+		]
+	}
 }

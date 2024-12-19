@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.5] - 2024-12-19
+
+- Improved documentation for better clarity.
+- Fixed minor bugs in the theme configuration.
+
 ## [0.3.4] - 2024-11-25
 
 - Imporve color palette for Cipher Font
